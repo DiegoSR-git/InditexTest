@@ -1,0 +1,1 @@
+create table prices (id bigint not null, brand_id integer, curr varchar(255), end_date timestamp, price double, price_list integer, priority integer, product_id integer, start_date timestamp, primary key (id))
